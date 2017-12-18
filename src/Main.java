@@ -1,14 +1,23 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        Test123 test = new Test123();
-        int[] a={7, 1, 5, 3, 6, 4};
-        int b=test.maxProfit(a);
-        System.out.print(b);
+        Test126 test = new Test126();
+        Set<String>a=new HashSet<>();
+        a.add("hot");
+        a.add("dot");
+        a.add("dog");
+        a.add("lot");
+        a.add("log");
+        a.add("cog");
+        List<List<String>> b=test.findLadders("hit","cog",a);
+        for (List<String> c:b){
+            for (String d:c){
+                System.out.print(d+"  ");
+            }
+            System.out.println();
+        }
 
     }
 }
