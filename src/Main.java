@@ -3,8 +3,8 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        Test126 test = new Test126();
-        Set<String>a=new HashSet<>();
+        Test126_2 test = new Test126_2();
+        List<String>a=new ArrayList<>();
         a.add("hot");
         a.add("dot");
         a.add("dog");
