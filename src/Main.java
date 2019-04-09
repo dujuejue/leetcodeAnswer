@@ -1,3 +1,4 @@
+import code.Test5;
 import code.Test76;
 
 import java.util.*;
@@ -5,11 +6,8 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        List<String> a=new ArrayList<>();
-        a.add("a");
-        a.add("b");
-        a.add("c");
-        List<String> b=null;
-        System.out.println(b.toString());
+        String a = "babad";
+        Test5 test5=new Test5();
+        test5.longestPalindrome(a);
     }
 }
